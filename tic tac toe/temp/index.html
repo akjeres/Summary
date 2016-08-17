@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv = 'content-type' content = 'text/html; charset = utf-8' />
+		<title>Tic Tac Toe</title>
+		<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+	</head>
+	<body>
+		<div id = 'gameSelect'>
+			<div id = 'gameMode'>
+				<h1>Select Game Mode</h1>
+				<button id = 'singlePlayer' onclick = 'chooseSinglePlayer()'>Single Player</button>
+				<button id = 'multiPlayer' onclick = 'chooseMultiPlayer()'>Multi Player</button>
+			</div>
+			<div id = 'singleMode'>
+				<h1 id = 'gameOrder'>Select Game Order</h1>
+				<button id = 'gameX' onclick = 'chooseX()'>X Game</button>
+				<button id = 'gameO' onclick = 'chooseO()'>O Game</button>
+			</div>	
+		</div>
+		<table id = 'table' border = '1'>
+			<tr>
+				<td id = 'cell0' onclick = 'cellNumber0()'></td>
+				<td id = 'cell1' onclick = 'cellNumber1()'></td>
+				<td id = 'cell2' onclick = 'cellNumber2()'></td>
+			</tr>
+			<tr>
+				<td id = 'cell3' onclick = 'cellNumber3()'></td>
+				<td id = 'cell4' onclick = 'cellNumber4()'></td>
+				<td id = 'cell5' onclick = 'cellNumber5()'></td>
+			</tr>
+			<tr>
+				<td id = 'cell6' onclick = 'cellNumber6()'></td>
+				<td id = 'cell7' onclick = 'cellNumber7()'></td>
+				<td id = 'cell8' onclick = 'cellNumber8()'></td>
+			</tr>
+		</table>
+		<script type = 'text/javascript' src = 'script.js'></script>
+	</body>
+</html>

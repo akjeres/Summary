@@ -1,0 +1,30 @@
+
+table {
+	border: 1px, solid, black;
+	border-collapse:collapse;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	visibility: hidden;
+}
+td {
+	width: 33.33%;
+	height: 33.33%;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Arial;
+	font-size: 330%;
+}
+div {
+	margin: 0 auto;
+	width: 280px;
+	text-align: center;
+}
+#singleMode {
+	display: none;
+}
+button {
+	margin: 0 auto;
+	width: 95px;
+}

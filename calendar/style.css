@@ -1,0 +1,74 @@
+html {
+	font-family: Arial; 
+	overflow: auto;
+	color: black;
+}
+body {
+	display: inline;
+	position: relative;
+	left: auto;
+	right: auto;
+	margin: 0 auto 0 auto;
+}
+.ordinaryDay {
+	text-align: center;
+}
+.redDay {
+	color: red;
+	text-align: center;
+}
+.notInList {
+	color: grey;
+	text-align: center;
+}
+.quarter1, .quarter2, .quarter3, .quarter4 {
+	max-width: 753px;
+	margin: 0 auto 0 auto;
+}
+.winter {
+	background-color: #AAD4DC;
+}
+.spring {
+	background-color: #4AE83A;
+}
+.summer {
+	background-color: #F5764A;
+}
+.autumn {
+	background-color: #D9B221;
+}
+.jan, .feb, .mar, .apr, .may, .jun, .jul, .aug, .sep, .oct, .nov, .dec {
+	width: 231px;
+	padding: 5px;
+	margin: 5px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	resize: none;
+	float: left;
+}
+.day {
+	width: 33px;
+	height: 19px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
+.dayName {
+	height: 23px;
+}
+.yearName {
+	padding: 4px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.monthName {
+	text-align: center;
+	padding: 2px auto 2px auto;
+	margin: 2px;
+}
+.currentDay {
+	background-color: #4169E1;
+}
